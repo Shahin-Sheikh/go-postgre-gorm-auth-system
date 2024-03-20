@@ -1,9 +1,9 @@
 package routes
 
 import (
+	"github.com/Shahin-Sheikh/go-postgre-gorm-auth-system/controllers"
+	"github.com/Shahin-Sheikh/go-postgre-gorm-auth-system/middleware"
 	"github.com/gin-gonic/gin"
-	"github.com/wpcodevo/golang-gorm-postgres/controllers"
-	"github.com/wpcodevo/golang-gorm-postgres/middleware"
 )
 
 type UserRouteController struct {

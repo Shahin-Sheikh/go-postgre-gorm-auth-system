@@ -1,4 +1,4 @@
-module github.com/wpcodevo/golang-gorm-postgres
+module github.com/Shahin-Sheikh/go-postgre-gorm-auth-system
 
 go 1.18
 

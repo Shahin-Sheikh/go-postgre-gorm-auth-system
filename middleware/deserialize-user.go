@@ -2,13 +2,13 @@ package middleware
 
 import (
 	"fmt"
+	"github.com/Shahin-Sheikh/go-postgre-gorm-auth-system/initializers"
+	"github.com/Shahin-Sheikh/go-postgre-gorm-auth-system/models"
+	"github.com/Shahin-Sheikh/go-postgre-gorm-auth-system/utils"
 	"net/http"
 	"strings"
 
 	"github.com/gin-gonic/gin"
-	"github.com/wpcodevo/golang-gorm-postgres/initializers"
-	"github.com/wpcodevo/golang-gorm-postgres/models"
-	"github.com/wpcodevo/golang-gorm-postgres/utils"
 )
 
 func DeserializeUser() gin.HandlerFunc {

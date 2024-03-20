@@ -1,14 +1,14 @@
 package main
 
 import (
+	"github.com/Shahin-Sheikh/go-postgre-gorm-auth-system/controllers"
+	"github.com/Shahin-Sheikh/go-postgre-gorm-auth-system/initializers"
+	"github.com/Shahin-Sheikh/go-postgre-gorm-auth-system/routes"
 	"log"
 	"net/http"
 
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
-	"github.com/wpcodevo/golang-gorm-postgres/controllers"
-	"github.com/wpcodevo/golang-gorm-postgres/initializers"
-	"github.com/wpcodevo/golang-gorm-postgres/routes"
 )
 
 var (

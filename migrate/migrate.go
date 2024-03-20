@@ -2,10 +2,9 @@ package main
 
 import (
 	"fmt"
+	"github.com/Shahin-Sheikh/go-postgre-gorm-auth-system/initializers"
+	"github.com/Shahin-Sheikh/go-postgre-gorm-auth-system/models"
 	"log"
-
-	"github.com/wpcodevo/golang-gorm-postgres/initializers"
-	"github.com/wpcodevo/golang-gorm-postgres/models"
 )
 
 func init() {

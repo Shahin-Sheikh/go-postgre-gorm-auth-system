@@ -1,13 +1,13 @@
 package controllers
 
 import (
+	"github.com/Shahin-Sheikh/go-postgre-gorm-auth-system/models"
 	"net/http"
 	"strconv"
 	"strings"
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/wpcodevo/golang-gorm-postgres/models"
 	"gorm.io/gorm"
 )
 
